@@ -87,6 +87,8 @@ static void insert_key_hashed(struct hash_table *table, uint32_t hash_key, void 
 
 static void resize(struct hash_table *table, uint32_t new_size)
 {
+    if (new_size == 0) return;
+
     // Remember these...
     uint32_t old_size = table->size;
     struct linked_list *old_bins = table->table;

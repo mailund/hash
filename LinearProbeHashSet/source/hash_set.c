@@ -27,6 +27,8 @@ void insert_key_hashed(struct hash_table *table,
 
 static void resize(struct hash_table *table, uint32_t new_size)
 {
+    if (new_size == 0) return;
+
     // Remember the old bins until we have moved them.
     struct bin *old_bins = table->table;
     uint32_t old_size = table->size;
