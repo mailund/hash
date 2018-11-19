@@ -27,7 +27,7 @@ struct hash_table {
 };
 
 struct hash_table *
-empty_table        (uint32_t size,
+empty_table        (uint32_t size, // Must be a power of two!
                     hash_func hash,
                     compare_func cmp,
                     destructor_func destructor);
