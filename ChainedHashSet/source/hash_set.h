@@ -12,9 +12,6 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#include <stdbool.h>
-#include <stdint.h>
-
 typedef uint32_t (*hash_func)(void *);
 typedef void (*destructor_func)(void *);
 typedef bool (*compare_func)(void *, void *);
