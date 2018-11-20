@@ -116,7 +116,7 @@ p(uint32_t k, uint32_t i, uint32_t m)
 * [Linear probe hash set with universal hashing](LinearProbeUniversalHashSet/source) — Adding universal hashing to linear probe set.
 
 * [Chained hash map](ChainedHashMap/source) — Hash map with linked lists for conflict resolution.
-* [Chained hash set with universal hashing](ChainedUniversalHashMap/source) — The same but with universal hashing.
+* [Chained hash map with universal hashing](ChainedUniversalHashMap/source) — The same but with universal hashing.
 * [Linear probe hash maps](LinearProbeUniversalHashMap/source) — Hash map with linear probing.
 * [Linear probe universal hash maps](LinearProbeUniversalHashMap/source) — Guess what this might be.
 

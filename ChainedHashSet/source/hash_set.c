@@ -17,11 +17,12 @@ struct linked_list {
 };
 
 void delete_linked_list(struct linked_list *list,
-                        destructor_func destructor)
+                        destructor_func destructor,
+                        bool delete_keys)
 {
     while (list != 0) {
         struct linked_list *next = list->next;
-        if (destructor && list->key)
+        if (delete_keys && destructor && list->key)
             destructor(list->key);
         free(list);
         list = next;
@@ -50,6 +51,7 @@ void list_insert_key(struct linked_list *list,
 {
     struct linked_list *link = get_previous_link(list, hash_key, key, cmp);
     if (link) {
+        link = link->next; // the one we really want...
         destructor(link->key);
         link->key = key;
         return;
@@ -117,7 +119,7 @@ static void resize(struct hash_set *table, uint32_t new_size)
     
     // Delete old table
     for (int i = 0; i < old_size; ++i) {
-        delete_linked_list(old_bins[i].next, table->destructor);
+        delete_linked_list(old_bins[i].next, table->destructor, false);
     }
     free(old_bins);
 }
@@ -142,7 +144,7 @@ struct hash_set *new_set(uint32_t size,
 void delete_set(struct hash_set *table)
 {
     for (int i = 0; i < table->size; ++i) {
-        delete_linked_list(table->table[i].next, table->destructor);
+        delete_linked_list(table->table[i].next, table->destructor, true);
     }
     free(table->table);
     free(table);

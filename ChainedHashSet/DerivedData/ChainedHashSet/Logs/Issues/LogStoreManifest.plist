@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>1D194AF5-C535-4C01-A0DA-4E7D79330969</key>
+		<key>6F9DE621-B7AA-4107-B3BA-711D2FCDA36E</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,21 +15,21 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
 			<key>fileName</key>
-			<string>1D194AF5-C535-4C01-A0DA-4E7D79330969.xcactivitylog</string>
+			<string>6F9DE621-B7AA-4107-B3BA-711D2FCDA36E.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>signature</key>
 			<string>ChainedHashSet-aqfocdqklvekwvarujqwepuwfeos</string>
 			<key>timeStartedRecording</key>
-			<real>564402273.94893098</real>
+			<real>564407933.17771602</real>
 			<key>timeStoppedRecording</key>
-			<real>564402273.99699402</real>
+			<real>564407933.24529099</real>
 			<key>title</key>
 			<string>Build target ChainedHashSet</string>
 			<key>uniqueIdentifier</key>
-			<string>1D194AF5-C535-4C01-A0DA-4E7D79330969</string>
+			<string>6F9DE621-B7AA-4107-B3BA-711D2FCDA36E</string>
 		</dict>
-		<key>75127722-3828-4A4F-95CA-E539AD5B553D</key>
+		<key>FB4B69A4-5CD6-4CB4-8A56-4201905D153A</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -38,19 +38,19 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
 			<key>fileName</key>
-			<string>75127722-3828-4A4F-95CA-E539AD5B553D.xcactivitylog</string>
+			<string>FB4B69A4-5CD6-4CB4-8A56-4201905D153A.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>signature</key>
 			<string>Test-aqfocdqklvekwvarujqwepuwfeos</string>
 			<key>timeStartedRecording</key>
-			<real>564402273.99914598</real>
+			<real>564407933.24545598</real>
 			<key>timeStoppedRecording</key>
-			<real>564402274.33452106</real>
+			<real>564407933.36996806</real>
 			<key>title</key>
 			<string>Build target Test</string>
 			<key>uniqueIdentifier</key>
-			<string>75127722-3828-4A4F-95CA-E539AD5B553D</string>
+			<string>FB4B69A4-5CD6-4CB4-8A56-4201905D153A</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

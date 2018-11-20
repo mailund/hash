@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>4E75A61A-A673-4FBD-9A7C-8F926D157170</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
+			<key>fileName</key>
+			<string>4E75A61A-A673-4FBD-9A7C-8F926D157170.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>ChainedUniversalHaspMap-eanuuxyctjqwmsesqcenmmfgiymv</string>
+			<key>timeStartedRecording</key>
+			<real>564408066.23901105</real>
+			<key>timeStoppedRecording</key>
+			<real>564408066.29576397</real>
+			<key>title</key>
+			<string>Build target ChainedUniversalHaspMap</string>
+			<key>uniqueIdentifier</key>
+			<string>4E75A61A-A673-4FBD-9A7C-8F926D157170</string>
+		</dict>
+		<key>A8A936B6-0CAA-4FDB-BDAD-08076340FC5A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
+			<key>fileName</key>
+			<string>A8A936B6-0CAA-4FDB-BDAD-08076340FC5A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Test-eanuuxyctjqwmsesqcenmmfgiymv</string>
+			<key>timeStartedRecording</key>
+			<real>564408066.29596698</real>
+			<key>timeStoppedRecording</key>
+			<real>564408066.49764097</real>
+			<key>title</key>
+			<string>Build target Test</string>
+			<key>uniqueIdentifier</key>
+			<string>A8A936B6-0CAA-4FDB-BDAD-08076340FC5A</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

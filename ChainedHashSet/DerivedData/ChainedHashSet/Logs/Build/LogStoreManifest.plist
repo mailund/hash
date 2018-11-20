@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>3C289608-79ED-4779-A051-E922BC7A2254</key>
+		<key>02B50ACA-CCFD-49D4-A81E-85EF4AC5D0BD</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,36 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>3C289608-79ED-4779-A051-E922BC7A2254.xcactivitylog</string>
+			<string>02B50ACA-CCFD-49D4-A81E-85EF4AC5D0BD.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ChainedHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564407911.97324598</real>
+			<key>timeStoppedRecording</key>
+			<real>564407912.05469298</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>02B50ACA-CCFD-49D4-A81E-85EF4AC5D0BD</string>
+		</dict>
+		<key>3F914051-E450-4988-A631-4BBA52060C5B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3F914051-E450-4988-A631-4BBA52060C5B.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,13 +56,71 @@
 			<key>signature</key>
 			<string>Build Test</string>
 			<key>timeStartedRecording</key>
-			<real>564402273.278898</real>
+			<real>564407850.65918303</real>
 			<key>timeStoppedRecording</key>
-			<real>564402274.33521295</real>
+			<real>564407850.91670597</real>
 			<key>title</key>
 			<string>Build Test</string>
 			<key>uniqueIdentifier</key>
-			<string>3C289608-79ED-4779-A051-E922BC7A2254</string>
+			<string>3F914051-E450-4988-A631-4BBA52060C5B</string>
+		</dict>
+		<key>8C70ADD2-5EE5-4CA2-B1FC-AC83C21C144D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8C70ADD2-5EE5-4CA2-B1FC-AC83C21C144D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ChainedHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564407376.98184204</real>
+			<key>timeStoppedRecording</key>
+			<real>564407377.21182001</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>8C70ADD2-5EE5-4CA2-B1FC-AC83C21C144D</string>
+		</dict>
+		<key>F196FAF1-E651-4969-B7FE-3B26E9E99BB4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F196FAF1-E651-4969-B7FE-3B26E9E99BB4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ChainedHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564407933.15721703</real>
+			<key>timeStoppedRecording</key>
+			<real>564407933.39375305</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>F196FAF1-E651-4969-B7FE-3B26E9E99BB4</string>
 		</dict>
 	</dict>
 </dict>

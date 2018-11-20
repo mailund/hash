@@ -63,9 +63,14 @@ int main(int argc, const char *argv[])
         init_tag_key(&different_keys[i], random_key());
     }
     
-    struct hash_set *table = new_set(2, 1.0, id_hash, compare_values, destroy);
+    struct hash_set *table =
+    new_set(2, 1.0, id_hash, compare_values, destroy);
     for (int i = 0; i < no_elms; ++i) {
         insert_key(table, &keys[i]);
+    }
+    for (int i = 0; i < no_elms; ++i) {
+        assert(keys[i].deleted == false);
+        assert(other_keys[i].deleted == false);
     }
     for (int i = 0; i < no_elms; ++i) {
         assert(contains_key(table, &keys[i]));
@@ -77,16 +82,27 @@ int main(int argc, const char *argv[])
         assert(!contains_key(table, &different_keys[i]));
     }
     for (int i = 0; i < no_elms; ++i) {
-        delete_key(table, &keys[i]);
+        insert_key(table, &other_keys[i]);
     }
     for (int i = 0; i < no_elms; ++i) {
-        assert(!contains_key(table, &keys[i]));
+        assert(keys[i].deleted == true);
+        assert(other_keys[i].deleted == false);
+    }
+    for (int i = 0; i < no_elms; ++i) {
+        assert(contains_key(table, &keys[i]));
+    }
+    for (int i = 0; i < no_elms; ++i) {
+        assert(contains_key(table, &other_keys[i]));
+    }
+    for (int i = 0; i < no_elms; ++i) {
+        delete_key(table, &other_keys[i]);
     }
     for (int i = 0; i < no_elms; ++i) {
         assert(!contains_key(table, &other_keys[i]));
     }
     for (int i = 0; i < no_elms; ++i) {
         assert(keys[i].deleted == true);
+        assert(other_keys[i].deleted == true);
     }
     
     delete_set(table);
