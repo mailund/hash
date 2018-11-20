@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>1BA3CE62-AE0A-4081-80C6-1EF88EE10328</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1BA3CE62-AE0A-4081-80C6-1EF88EE10328.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeHashMap project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Test</string>
+			<key>timeStartedRecording</key>
+			<real>564403229.96544802</real>
+			<key>timeStoppedRecording</key>
+			<real>564403231.22627604</real>
+			<key>title</key>
+			<string>Debug Test</string>
+			<key>uniqueIdentifier</key>
+			<string>1BA3CE62-AE0A-4081-80C6-1EF88EE10328</string>
+		</dict>
+		<key>65FC4EC1-80F5-4535-99B9-AACF693647BE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>65FC4EC1-80F5-4535-99B9-AACF693647BE.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeHashMap project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Test</string>
+			<key>timeStartedRecording</key>
+			<real>564403022.79726195</real>
+			<key>timeStoppedRecording</key>
+			<real>564403026.71730101</real>
+			<key>title</key>
+			<string>Debug Test</string>
+			<key>uniqueIdentifier</key>
+			<string>65FC4EC1-80F5-4535-99B9-AACF693647BE</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

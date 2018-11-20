@@ -61,7 +61,41 @@ void delete_key  (struct hash_table *table,
 
 When you insert a key, the old key is deleted. If you do not want this behaviour, you need to handle it in the destructor. The table cannot know if keys are unique and should be deleted to avoid memory leak, or if they can be the same objects and should not be deleted. You can always check if a key is already in the table before you insert it to avoid deleting existing keys.
 
+### Maps
 
+The interface for maps is
+
+```c
+struct hash_map *
+new_map           (uint32_t size, // Must be a power of two!
+                   hash_func hash,
+                   compare_func key_cmp,
+                   destructor_func key_destructor,
+                   destructor_func val_destructor);
+void  delete_map  (struct hash_map *table);
+
+void  map          (struct hash_map *table,
+                    void *key, void *val);
+void *lookup       (struct hash_map *table, void *key);
+bool  contains_key (struct hash_map *table, void *key);
+void  delete_key   (struct hash_map *table, void *key);
+```
+
+For universal hashing the constructor is
+
+```c
+struct hash_map *
+new_map           (uint32_t size, // Must be a power of two!
+                   float rehash_factor,
+                   hash_func hash,
+                   compare_func key_cmp,
+                   destructor_func key_destructor,
+                   destructor_func val_destructor);
+```
+
+In the constructors, in addition to the functions for sets, you need a value destructor. This function frees memory for the values the hash table maps too.
+
+Other than that, the main change is that insert key is now called map and takes a value argument and that we have an extra function, `lookup` that gets the value for a key. It will return null if the key is not in the table. If you allow null as valid values, you should use `contains_key` to check if a key is in the table.
 
 ## Implementations
 

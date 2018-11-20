@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>8568E455-5C2A-4EDE-AF10-640541F55D28</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8568E455-5C2A-4EDE-AF10-640541F55D28.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeHashMap project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564403229.766379</real>
+			<key>timeStoppedRecording</key>
+			<real>564403229.98131895</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>8568E455-5C2A-4EDE-AF10-640541F55D28</string>
+		</dict>
+		<key>8A46CD8B-B711-4671-98CE-7450FF41E60C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8A46CD8B-B711-4671-98CE-7450FF41E60C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeHashMap project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564403215.18623602</real>
+			<key>timeStoppedRecording</key>
+			<real>564403215.332654</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>8A46CD8B-B711-4671-98CE-7450FF41E60C</string>
+		</dict>
+		<key>96248463-A315-41B3-AC97-640B052092AF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>96248463-A315-41B3-AC97-640B052092AF.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeHashMap project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LinearProbeHashMap</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LinearProbeHashMap</string>
+			<key>timeStartedRecording</key>
+			<real>564403014.06889999</real>
+			<key>timeStoppedRecording</key>
+			<real>564403014.44156897</real>
+			<key>title</key>
+			<string>Build LinearProbeHashMap</string>
+			<key>uniqueIdentifier</key>
+			<string>96248463-A315-41B3-AC97-640B052092AF</string>
+		</dict>
+		<key>9D379618-3C7A-4A3E-9624-87A407CECEF1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9D379618-3C7A-4A3E-9624-87A407CECEF1.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>A</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeHashMap project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564403021.916394</real>
+			<key>timeStoppedRecording</key>
+			<real>564403022.81274796</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>9D379618-3C7A-4A3E-9624-87A407CECEF1</string>
+		</dict>
+		<key>C75EF5BE-E57E-4C93-8B2B-BA6DE8D18B63</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C75EF5BE-E57E-4C93-8B2B-BA6DE8D18B63.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>A</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeHashMap project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LinearProbeHashMap</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Analyze LinearProbeHashMap</string>
+			<key>timeStartedRecording</key>
+			<real>564403016.33310497</real>
+			<key>timeStoppedRecording</key>
+			<real>564403017.39701903</real>
+			<key>title</key>
+			<string>Analyze LinearProbeHashMap</string>
+			<key>uniqueIdentifier</key>
+			<string>C75EF5BE-E57E-4C93-8B2B-BA6DE8D18B63</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
