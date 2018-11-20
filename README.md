@@ -22,16 +22,16 @@ typedef void (*destructor_func)(void *);
 
 You *must* provide the first two, but you can use 0 for the third. The hash function is used to map application keys to hash keys. For tables that implements universal hashing, the function is still needed to map application keys into hash keys that are them re-scrambled through universal hashing.
 
-The destructor and comparison functions are used to deallocate and compare keys. If the destructor function is not provided, the keys are not deallocated.
+The destructor and comparison functions are used to deallocate and compare keys. Do not provide null-pointers here. Nothing good will come from that.
 
-You construct an empty table with this function. The size must be a power of two (God have mercy on your soul if it is not, because the implementation is not merciful). The other three parameters are the functions the table needs.
+You construct an empty set with this function. The size must be a power of two (God have mercy on your soul if it is not, because the implementation is not merciful). The other three parameters are the functions the table needs.
 
 ```c
 struct hash_table *
-empty_table        (uint32_t size, // Must be a power of two!
-                    hash_func hash,
-                    compare_func cmp,
-                    destructor_func destructor);
+new_set        (uint32_t size, // Must be a power of two!
+                 hash_func hash,
+                 compare_func cmp,
+                 destructor_func destructor);
                     
 ```
 
@@ -39,17 +39,17 @@ With universal hashing, there is also a `rehash_factor` parameter that determine
 
 ```c
 struct hash_table *
-empty_table        (uint32_t size, // Must be a power of two!
-                    float rehash_factor,
-                    hash_func hash,
-                    compare_func cmp,
-                    destructor_func destructor);
+new_set        (uint32_t size, // Must be a power of two!
+                float rehash_factor,
+                hash_func hash,
+                compare_func cmp,
+                destructor_func destructor);
 ```
                 
 The rest of the interface should be self explanatory.
                 
 ```c
-void delete_table  (struct hash_table *table);
+void delete_set  (struct hash_table *table);
 
 void insert_key  (struct hash_table *table,
                   void *key);
@@ -58,6 +58,8 @@ bool contains_key(struct hash_table *table,
 void delete_key  (struct hash_table *table,
                   void *key);
 ```
+
+When you insert a key, the old key is deleted. If you do not want this behaviour, you need to handle it in the destructor. The table cannot know if keys are unique and should be deleted to avoid memory leak, or if they can be the same objects and should not be deleted. You can always check if a key is already in the table before you insert it to avoid deleting existing keys.
 
 
 
@@ -76,4 +78,7 @@ p(uint32_t k, uint32_t i, uint32_t m)
     return (h1 + i*h2) & (m - 1);
 }
 ```
+
+* [Linear probe hash set with universal hashing](LinearProbeUniversalHashSet/source) — Adding universal hashing to linear probe set.
+
 

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>AC7DE678-3535-469C-953C-D64B0DE57499</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
+			<key>fileName</key>
+			<string>AC7DE678-3535-469C-953C-D64B0DE57499.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Test-fhcqvqyndyhnsugqcfzrqlnkusnn</string>
+			<key>timeStartedRecording</key>
+			<real>564400947.28486598</real>
+			<key>timeStoppedRecording</key>
+			<real>564400947.45314896</real>
+			<key>title</key>
+			<string>Build target Test</string>
+			<key>uniqueIdentifier</key>
+			<string>AC7DE678-3535-469C-953C-D64B0DE57499</string>
+		</dict>
+		<key>BDB91183-EDD8-45D1-81AF-A95594EAEC42</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
+			<key>fileName</key>
+			<string>BDB91183-EDD8-45D1-81AF-A95594EAEC42.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>LinearProbeUniversalHashMap-fhcqvqyndyhnsugqcfzrqlnkusnn</string>
+			<key>timeStartedRecording</key>
+			<real>564400650.71638501</real>
+			<key>timeStoppedRecording</key>
+			<real>564400651.048576</real>
+			<key>title</key>
+			<string>Build target LinearProbeUniversalHashMap</string>
+			<key>uniqueIdentifier</key>
+			<string>BDB91183-EDD8-45D1-81AF-A95594EAEC42</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>
