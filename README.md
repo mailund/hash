@@ -120,3 +120,4 @@ p(uint32_t k, uint32_t i, uint32_t m)
 * [Linear probe hash maps](LinearProbeUniversalHashMap/source) — Hash map with linear probing.
 * [Linear probe universal hash maps](LinearProbeUniversalHashMap/source) — Guess what this might be.
 
+* [Various hash functions](HashFunctions/source) — Hash functions for single words and for strings. You can use them in your application hash functions but you shouldn’t use them directly. There is structure in your data that they will not handle.
