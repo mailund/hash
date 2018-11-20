@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>DD7183DA-2D8C-462B-8317-64CF26A7D6D2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
+			<key>fileName</key>
+			<string>DD7183DA-2D8C-462B-8317-64CF26A7D6D2.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>HashFunctions-apdumvundvghdlbdkihzgjnaacen</string>
+			<key>timeStartedRecording</key>
+			<real>564411426.48429501</real>
+			<key>timeStoppedRecording</key>
+			<real>564411426.53288603</real>
+			<key>title</key>
+			<string>Build target HashFunctions</string>
+			<key>uniqueIdentifier</key>
+			<string>DD7183DA-2D8C-462B-8317-64CF26A7D6D2</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>
