@@ -61,7 +61,7 @@ void delete_key  (struct hash_table *table,
 
 When you insert a key, the old key is deleted. If you do not want this behaviour, you need to handle it in the destructor. The table cannot know if keys are unique and should be deleted to avoid memory leak, or if they can be the same objects and should not be deleted. You can always check if a key is already in the table before you insert it to avoid deleting existing keys.
 
-### Maps
+### Hash maps
 
 The interface for maps is
 
@@ -115,4 +115,8 @@ p(uint32_t k, uint32_t i, uint32_t m)
 
 * [Linear probe hash set with universal hashing](LinearProbeUniversalHashSet/source) — Adding universal hashing to linear probe set.
 
+* [Chained hash map](ChainedHashMap/source) — Hash map with linked lists for conflict resolution.
+* [Chained hash set with universal hashing](ChainedUniversalHashMap/source) — The same but with universal hashing.
+* [Linear probe hash maps](LinearProbeUniversalHashMap/source) — Hash map with linear probing.
+* [Linear probe universal hash maps](LinearProbeUniversalHashMap/source) — Guess what this might be.
 
