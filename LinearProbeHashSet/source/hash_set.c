@@ -22,10 +22,10 @@ p(uint32_t k, unsigned int i, unsigned int m)
     return (k + i) & (m - 1);
 }
 
-void insert_key_hashed(struct hash_table *table,
+void insert_key_hashed(struct hash_set *table,
                        uint32_t hash_key, void *key);
 
-static void resize(struct hash_table *table, uint32_t new_size)
+static void resize(struct hash_set *table, uint32_t new_size)
 {
     if (new_size == 0) return;
 
@@ -56,13 +56,13 @@ static void resize(struct hash_table *table, uint32_t new_size)
     free(old_bins);
 }
 
-struct hash_table *empty_table(uint32_t size,
+struct hash_set *empty_table(uint32_t size,
                                hash_func  hash,
                                compare_func cmp,
                                destructor_func destructor)
 {
-    struct hash_table *table =
-    (struct hash_table*)malloc(sizeof(struct hash_table));
+    struct hash_set *table =
+    (struct hash_set*)malloc(sizeof(struct hash_set));
     table->table =
     (struct bin *)malloc(size * sizeof(struct bin));
     struct bin *end = table->table + size;
@@ -78,7 +78,7 @@ struct hash_table *empty_table(uint32_t size,
     return table;
 }
 
-void delete_table(struct hash_table *table)
+void delete_table(struct hash_set *table)
 {
     if (table->destructor) {
         struct bin *end = table->table + table->size;
@@ -91,7 +91,7 @@ void delete_table(struct hash_table *table)
     free(table);
 }
 
-void insert_key_hashed(struct hash_table *table,
+void insert_key_hashed(struct hash_set *table,
                        uint32_t hash_key, void *key)
 {
     uint32_t index;
@@ -134,13 +134,13 @@ void insert_key_hashed(struct hash_table *table,
     if (table->used > table->size / 2)
         resize(table, table->size * 2);
 }
-void insert_key(struct hash_table *table, void *key)
+void insert_key(struct hash_set *table, void *key)
 {
     uint32_t hash_key = table->hash(key);
     insert_key_hashed(table, hash_key, key);
 }
 
-bool contains_key(struct hash_table *table, void *key)
+bool contains_key(struct hash_set *table, void *key)
 {
     uint32_t hash_key = table->hash(key);
     for (uint32_t i = 0; i < table->size; ++i) {
@@ -155,7 +155,7 @@ bool contains_key(struct hash_table *table, void *key)
     return false;
 }
 
-void delete_key(struct hash_table *table, void *key)
+void delete_key(struct hash_set *table, void *key)
 {
     uint32_t hash_key = table->hash(key);
     for (uint32_t i = 0; i < table->size; ++i) {

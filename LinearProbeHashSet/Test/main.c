@@ -63,7 +63,7 @@ int main(int argc, const char *argv[])
         init_tag_key(&different_keys[i], random_key());
     }
     
-    struct hash_table *table = empty_table(2, id_hash, compare_values, destroy);
+    struct hash_set *table = empty_table(2, id_hash, compare_values, destroy);
     for (int i = 0; i < no_elms; ++i) {
         insert_key(table, &keys[i]);
     }

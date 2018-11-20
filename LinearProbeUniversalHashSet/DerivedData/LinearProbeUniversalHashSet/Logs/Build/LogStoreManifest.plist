@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>0EB7D8D9-7530-4482-9DE1-4D73B3745D46</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0EB7D8D9-7530-4482-9DE1-4D73B3745D46.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Analyze Test</string>
+			<key>timeStartedRecording</key>
+			<real>564395779.07175803</real>
+			<key>timeStoppedRecording</key>
+			<real>564395779.15711296</real>
+			<key>title</key>
+			<string>Analyze Test</string>
+			<key>uniqueIdentifier</key>
+			<string>0EB7D8D9-7530-4482-9DE1-4D73B3745D46</string>
+		</dict>
+		<key>11041C9E-77EB-4059-BE2E-FBDCB3DB8DF2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>11041C9E-77EB-4059-BE2E-FBDCB3DB8DF2.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564396282.02082098</real>
+			<key>timeStoppedRecording</key>
+			<real>564396282.26538002</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>11041C9E-77EB-4059-BE2E-FBDCB3DB8DF2</string>
+		</dict>
+		<key>2D3078CE-85A9-49BD-A6BD-3EDB091D0D5B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2D3078CE-85A9-49BD-A6BD-3EDB091D0D5B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Analyze Test</string>
+			<key>timeStartedRecording</key>
+			<real>564393558.12264204</real>
+			<key>timeStoppedRecording</key>
+			<real>564393558.57552302</real>
+			<key>title</key>
+			<string>Analyze Test</string>
+			<key>uniqueIdentifier</key>
+			<string>2D3078CE-85A9-49BD-A6BD-3EDB091D0D5B</string>
+		</dict>
+		<key>30307408-8652-4460-85AB-B50FE41FE54D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>30307408-8652-4460-85AB-B50FE41FE54D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564395854.64807606</real>
+			<key>timeStoppedRecording</key>
+			<real>564395854.91010702</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>30307408-8652-4460-85AB-B50FE41FE54D</string>
+		</dict>
+		<key>31EFF05E-0927-4E61-BB88-A2B6349F4342</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>31EFF05E-0927-4E61-BB88-A2B6349F4342.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564395769.80358398</real>
+			<key>timeStoppedRecording</key>
+			<real>564395769.89373302</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>31EFF05E-0927-4E61-BB88-A2B6349F4342</string>
+		</dict>
+		<key>3EB7CE1B-0AF9-4B41-8185-573CC7C2D14A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3EB7CE1B-0AF9-4B41-8185-573CC7C2D14A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564396166.58411801</real>
+			<key>timeStoppedRecording</key>
+			<real>564396166.76186895</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>3EB7CE1B-0AF9-4B41-8185-573CC7C2D14A</string>
+		</dict>
+		<key>455B1408-A335-4198-BB65-6509B6B07AF8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>455B1408-A335-4198-BB65-6509B6B07AF8.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564393409.46672595</real>
+			<key>timeStoppedRecording</key>
+			<real>564393409.85594106</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>455B1408-A335-4198-BB65-6509B6B07AF8</string>
+		</dict>
+		<key>457758EE-024E-4162-8224-9F8F5F2F8758</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>457758EE-024E-4162-8224-9F8F5F2F8758.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Analyze Test</string>
+			<key>timeStartedRecording</key>
+			<real>564393374.03137195</real>
+			<key>timeStoppedRecording</key>
+			<real>564393374.49981105</real>
+			<key>title</key>
+			<string>Analyze Test</string>
+			<key>uniqueIdentifier</key>
+			<string>457758EE-024E-4162-8224-9F8F5F2F8758</string>
+		</dict>
+		<key>48AA1D1B-C358-4B9B-A4F9-3453309BF728</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>48AA1D1B-C358-4B9B-A4F9-3453309BF728.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>A</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Analyze Test</string>
+			<key>timeStartedRecording</key>
+			<real>564396338.21479702</real>
+			<key>timeStoppedRecording</key>
+			<real>564396338.84102702</real>
+			<key>title</key>
+			<string>Analyze Test</string>
+			<key>uniqueIdentifier</key>
+			<string>48AA1D1B-C358-4B9B-A4F9-3453309BF728</string>
+		</dict>
+		<key>4994BBA8-4833-4771-87BD-CEAC0A4C6F1F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4994BBA8-4833-4771-87BD-CEAC0A4C6F1F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564396199.16456199</real>
+			<key>timeStoppedRecording</key>
+			<real>564396199.40602303</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>4994BBA8-4833-4771-87BD-CEAC0A4C6F1F</string>
+		</dict>
+		<key>6373DA20-02F8-403A-B6EF-32CD4162DB04</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6373DA20-02F8-403A-B6EF-32CD4162DB04.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Analyze Test</string>
+			<key>timeStartedRecording</key>
+			<real>564393534.86909103</real>
+			<key>timeStoppedRecording</key>
+			<real>564393534.93311799</real>
+			<key>title</key>
+			<string>Analyze Test</string>
+			<key>uniqueIdentifier</key>
+			<string>6373DA20-02F8-403A-B6EF-32CD4162DB04</string>
+		</dict>
+		<key>64AE5738-61B4-4207-937C-4F0D82868002</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>64AE5738-61B4-4207-937C-4F0D82868002.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Analyze Test</string>
+			<key>timeStartedRecording</key>
+			<real>564396076.19092</real>
+			<key>timeStoppedRecording</key>
+			<real>564396076.27342296</real>
+			<key>title</key>
+			<string>Analyze Test</string>
+			<key>uniqueIdentifier</key>
+			<string>64AE5738-61B4-4207-937C-4F0D82868002</string>
+		</dict>
+		<key>6AFF9DE2-3E60-4CD3-8258-DD36ACF2D285</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6AFF9DE2-3E60-4CD3-8258-DD36ACF2D285.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564396288.23104405</real>
+			<key>timeStoppedRecording</key>
+			<real>564396288.35525203</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>6AFF9DE2-3E60-4CD3-8258-DD36ACF2D285</string>
+		</dict>
+		<key>8432E066-0784-411D-B9B1-B0FE29ABC5A2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8432E066-0784-411D-B9B1-B0FE29ABC5A2.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>A</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564396856.64938605</real>
+			<key>timeStoppedRecording</key>
+			<real>564396856.88869798</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>8432E066-0784-411D-B9B1-B0FE29ABC5A2</string>
+		</dict>
+		<key>8615B794-0CF2-405B-82B1-98324C136667</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8615B794-0CF2-405B-82B1-98324C136667.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LinearProbeUniversalHashSet</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LinearProbeUniversalHashSet</string>
+			<key>timeStartedRecording</key>
+			<real>564395804.84816599</real>
+			<key>timeStoppedRecording</key>
+			<real>564395804.91403902</real>
+			<key>title</key>
+			<string>Build LinearProbeUniversalHashSet</string>
+			<key>uniqueIdentifier</key>
+			<string>8615B794-0CF2-405B-82B1-98324C136667</string>
+		</dict>
+		<key>8824C54A-B3BF-41F5-91D5-1FE9F6BD8300</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8824C54A-B3BF-41F5-91D5-1FE9F6BD8300.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LinearProbeUniversalHashSet</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LinearProbeUniversalHashSet</string>
+			<key>timeStartedRecording</key>
+			<real>564395844.21508598</real>
+			<key>timeStoppedRecording</key>
+			<real>564395844.29232895</real>
+			<key>title</key>
+			<string>Build LinearProbeUniversalHashSet</string>
+			<key>uniqueIdentifier</key>
+			<string>8824C54A-B3BF-41F5-91D5-1FE9F6BD8300</string>
+		</dict>
+		<key>913976C4-6B57-4600-A1D2-9AD97EB87D28</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>913976C4-6B57-4600-A1D2-9AD97EB87D28.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564395776.77575302</real>
+			<key>timeStoppedRecording</key>
+			<real>564395776.84614003</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>913976C4-6B57-4600-A1D2-9AD97EB87D28</string>
+		</dict>
+		<key>AC9025A0-C1B5-4569-BD78-44252071500D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AC9025A0-C1B5-4569-BD78-44252071500D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Analyze Test</string>
+			<key>timeStartedRecording</key>
+			<real>564396165.42560196</real>
+			<key>timeStoppedRecording</key>
+			<real>564396165.82513297</real>
+			<key>title</key>
+			<string>Analyze Test</string>
+			<key>uniqueIdentifier</key>
+			<string>AC9025A0-C1B5-4569-BD78-44252071500D</string>
+		</dict>
+		<key>BFD31862-6D3E-4FBF-9427-0E1B15C62018</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BFD31862-6D3E-4FBF-9427-0E1B15C62018.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564396335.86325598</real>
+			<key>timeStoppedRecording</key>
+			<real>564396336.08281696</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>BFD31862-6D3E-4FBF-9427-0E1B15C62018</string>
+		</dict>
+		<key>DB86517D-799C-45FB-BE18-93E783BD1A21</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DB86517D-799C-45FB-BE18-93E783BD1A21.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Analyze Test</string>
+			<key>timeStartedRecording</key>
+			<real>564396285.51952696</real>
+			<key>timeStoppedRecording</key>
+			<real>564396285.92899299</real>
+			<key>title</key>
+			<string>Analyze Test</string>
+			<key>uniqueIdentifier</key>
+			<string>DB86517D-799C-45FB-BE18-93E783BD1A21</string>
+		</dict>
+		<key>DD59F1A8-E412-47A2-A7A3-69BC6B0C829B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DD59F1A8-E412-47A2-A7A3-69BC6B0C829B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564396201.15569496</real>
+			<key>timeStoppedRecording</key>
+			<real>564396201.19456899</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>DD59F1A8-E412-47A2-A7A3-69BC6B0C829B</string>
+		</dict>
+		<key>DF2DD581-055D-4CFE-946F-D63C22D87BA5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DF2DD581-055D-4CFE-946F-D63C22D87BA5.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Analyze Test</string>
+			<key>timeStartedRecording</key>
+			<real>564393465.53538001</real>
+			<key>timeStoppedRecording</key>
+			<real>564393466.16872704</real>
+			<key>title</key>
+			<string>Analyze Test</string>
+			<key>uniqueIdentifier</key>
+			<string>DF2DD581-055D-4CFE-946F-D63C22D87BA5</string>
+		</dict>
+		<key>F1197F93-C026-4281-9EE4-30E0C70164DD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F1197F93-C026-4281-9EE4-30E0C70164DD.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564396167.95653796</real>
+			<key>timeStoppedRecording</key>
+			<real>564396167.99417698</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>F1197F93-C026-4281-9EE4-30E0C70164DD</string>
+		</dict>
+		<key>F98C4E52-9854-46F0-AC19-B2FFBF38E6BF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F98C4E52-9854-46F0-AC19-B2FFBF38E6BF.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564395797.66700602</real>
+			<key>timeStoppedRecording</key>
+			<real>564395797.73870003</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>F98C4E52-9854-46F0-AC19-B2FFBF38E6BF</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

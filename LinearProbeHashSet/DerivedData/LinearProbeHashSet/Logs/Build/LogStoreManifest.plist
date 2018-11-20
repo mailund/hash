@@ -35,6 +35,35 @@
 			<key>uniqueIdentifier</key>
 			<string>01EC01FD-7CDF-43CE-806E-7C55DFA17C38</string>
 		</dict>
+		<key>0AE1FBF6-390D-4456-8B3C-CE8A98E3B3C8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0AE1FBF6-390D-4456-8B3C-CE8A98E3B3C8.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564393596.71028304</real>
+			<key>timeStoppedRecording</key>
+			<real>564393597.015306</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>0AE1FBF6-390D-4456-8B3C-CE8A98E3B3C8</string>
+		</dict>
 		<key>150DEAE5-9BCD-4063-9E44-826E848EC8E3</key>
 		<dict>
 			<key>className</key>

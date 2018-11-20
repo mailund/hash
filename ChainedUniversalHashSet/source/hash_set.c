@@ -110,12 +110,12 @@ static uint32_t tabhash(uint32_t x, uint8_t *T)
 
 #pragma mark hash set
 
-static void resize(struct hash_table *table, uint32_t new_size);
-static void insert_key_hashed(struct hash_table *table,
+static void resize(struct hash_set *table, uint32_t new_size);
+static void insert_key_hashed(struct hash_set *table,
                               uint32_t hash_key, uint32_t uhash_key,
                               void *key);
 
-static void resize(struct hash_table *table, uint32_t new_size)
+static void resize(struct hash_set *table, uint32_t new_size)
 {
     if (new_size == 0) return;
     
@@ -153,7 +153,7 @@ static void resize(struct hash_table *table, uint32_t new_size)
     free(old_bins);
 }
 
-static void rehash(struct hash_table *table)
+static void rehash(struct hash_set *table)
 {
     // Remember these...
     uint32_t old_size = table->size;
@@ -186,13 +186,13 @@ static void rehash(struct hash_table *table)
     free(old_bins);
 }
 
-struct hash_table *empty_table(uint32_t size,
+struct hash_set *empty_table(uint32_t size,
                                float rehash_factor,
                                hash_func hash,
                                compare_func cmp,
                                destructor_func destructor)
 {
-    struct hash_table *table = (struct hash_table *)malloc(sizeof(struct hash_table));
+    struct hash_set *table = (struct hash_set *)malloc(sizeof(struct hash_set));
     
     // Using `calloc` here sets everything to zero. That initialises
     // the sentinel list links since it puts their next-pointers to null
@@ -223,7 +223,7 @@ struct hash_table *empty_table(uint32_t size,
     return table;
 }
 
-void delete_table(struct hash_table *table)
+void delete_table(struct hash_set *table)
 {
     for (int i = 0; i < table->size; ++i) {
         delete_linked_list(table->table[i].next, table->destructor);
@@ -236,7 +236,7 @@ void delete_table(struct hash_table *table)
 // Inserts when we already have the hash key. We have this to avoid
 // hashing when we resize. This function does not trigger rehashing
 // or resizing
-static void insert_key_hashed(struct hash_table *table,
+static void insert_key_hashed(struct hash_set *table,
                               uint32_t hash_key, uint32_t uhash_key,
                               void *key)
 {
@@ -251,7 +251,7 @@ static void insert_key_hashed(struct hash_table *table,
     }
 }
 
-void insert_key(struct hash_table *table, void *key)
+void insert_key(struct hash_set *table, void *key)
 {
     table->operations_since_rehash++;
     if (table->operations_since_rehash > table->probe_limit) {
@@ -265,7 +265,7 @@ void insert_key(struct hash_table *table, void *key)
         resize(table, table->size * 2);
 }
 
-bool contains_key(struct hash_table *table, void *key)
+bool contains_key(struct hash_set *table, void *key)
 {
     table->operations_since_rehash++;
     if (table->operations_since_rehash > table->probe_limit) {
@@ -281,7 +281,7 @@ bool contains_key(struct hash_table *table, void *key)
                              table->cmp);
 }
 
-void delete_key(struct hash_table *table, void *key)
+void delete_key(struct hash_set *table, void *key)
 {
     table->operations_since_rehash++;
     if (table->operations_since_rehash > table->probe_limit) {

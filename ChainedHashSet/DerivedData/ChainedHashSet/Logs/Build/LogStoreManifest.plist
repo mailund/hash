@@ -35,35 +35,6 @@
 			<key>uniqueIdentifier</key>
 			<string>C4C2405E-EDD2-45F9-B0C2-39AB13F9417D</string>
 		</dict>
-		<key>CFACFE38-412E-41A7-BD88-6835EC2E9901</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>CFACFE38-412E-41A7-BD88-6835EC2E9901.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>ChainedHashSet project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Test</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Test</string>
-			<key>timeStartedRecording</key>
-			<real>564332087.689309</real>
-			<key>timeStoppedRecording</key>
-			<real>564332087.89056206</real>
-			<key>title</key>
-			<string>Build Test</string>
-			<key>uniqueIdentifier</key>
-			<string>CFACFE38-412E-41A7-BD88-6835EC2E9901</string>
-		</dict>
 	</dict>
 </dict>
 </plist>

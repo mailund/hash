@@ -64,7 +64,7 @@ void delete_key  (struct hash_table *table,
 ## Implementations
 
 * [Chained hash set](ChainedHashSet/source) — Hash set with linked lists for conflict resolution.
-* [Chained hash set with universal hashing](ChainedUniversalHashSet/source) — what it says on the tin.
+* [Chained hash set with universal hashing](ChainedUniversalHashSet/source) — What it says on the tin.
 * [Linear probe hash set](LinearProbeHashSet/source) — Hash set with open addressing linear probes. If you want double hashing instead, you can replace the probe function with the one below, but linear probing is usually faster for larger hash tables because of its cache efficiency.
 
 ```c

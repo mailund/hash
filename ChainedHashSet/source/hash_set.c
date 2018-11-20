@@ -82,10 +82,10 @@ bool list_contains_key(struct linked_list *list,
 
 #pragma mark hash set
 
-static void resize(struct hash_table *table, uint32_t new_size);
-static void insert_key_hashed(struct hash_table *table, uint32_t hash_key, void *key);
+static void resize(struct hash_set *table, uint32_t new_size);
+static void insert_key_hashed(struct hash_set *table, uint32_t hash_key, void *key);
 
-static void resize(struct hash_table *table, uint32_t new_size)
+static void resize(struct hash_set *table, uint32_t new_size)
 {
     if (new_size == 0) return;
 
@@ -114,12 +114,12 @@ static void resize(struct hash_table *table, uint32_t new_size)
     free(old_bins);
 }
 
-struct hash_table *empty_table(uint32_t size,
+struct hash_set *empty_table(uint32_t size,
                                hash_func hash,
                                compare_func cmp,
                                destructor_func destructor)
 {
-    struct hash_table *table = (struct hash_table *)malloc(sizeof(struct hash_table));
+    struct hash_set *table = (struct hash_set *)malloc(sizeof(struct hash_set));
     // Using `calloc` here sets everything to zero. That initialises
     // the sentinel list links since it puts their next-pointers to null
     table->table = (struct linked_list *)calloc(size, sizeof(struct linked_list));
@@ -131,7 +131,7 @@ struct hash_table *empty_table(uint32_t size,
     return table;
 }
 
-void delete_table(struct hash_table *table)
+void delete_table(struct hash_set *table)
 {
     for (int i = 0; i < table->size; ++i) {
         delete_linked_list(table->table[i].next, table->destructor);
@@ -142,7 +142,7 @@ void delete_table(struct hash_table *table)
 
 // Inserts when we already have the hash key. We have this to avoid
 // hashing when we resize.
-static void insert_key_hashed(struct hash_table *table, uint32_t hash_key, void *key)
+static void insert_key_hashed(struct hash_set *table, uint32_t hash_key, void *key)
 {
     uint32_t mask = table->size - 1;
     uint32_t index = hash_key & mask;
@@ -158,13 +158,13 @@ static void insert_key_hashed(struct hash_table *table, uint32_t hash_key, void 
         resize(table, table->size * 2);
 }
 
-void insert_key(struct hash_table *table, void *key)
+void insert_key(struct hash_set *table, void *key)
 {
     uint32_t hash_key = table->hash(key);
     insert_key_hashed(table, hash_key, key);
 }
 
-bool contains_key(struct hash_table *table, void *key)
+bool contains_key(struct hash_set *table, void *key)
 {
     uint32_t hash_key = table->hash(key);
     uint32_t mask = table->size - 1;
@@ -174,7 +174,7 @@ bool contains_key(struct hash_table *table, void *key)
                              table->cmp);
 }
 
-void delete_key(struct hash_table *table, void *key)
+void delete_key(struct hash_set *table, void *key)
 {
     uint32_t hash_key = table->hash(key);
     uint32_t mask = table->size - 1;
