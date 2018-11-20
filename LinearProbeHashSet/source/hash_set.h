@@ -27,11 +27,11 @@ struct hash_set {
 };
 
 struct hash_set *
-empty_table        (uint32_t size, // Must be a power of two!
-                    hash_func hash,
-                    compare_func cmp,
-                    destructor_func destructor);
-void delete_table  (struct hash_set *table);
+new_set         (uint32_t size, // Must be a power of two!
+                 hash_func hash,
+                 compare_func cmp,
+                 destructor_func destructor);
+void delete_set  (struct hash_set *table);
 
 void insert_key  (struct hash_set *table,
                   void *key);

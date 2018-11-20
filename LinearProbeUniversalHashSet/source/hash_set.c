@@ -134,7 +134,7 @@ static void rehash(struct hash_set *table)
     free(old_bins);
 }
 
-struct hash_set *empty_table(uint32_t size,
+struct hash_set *new_set(uint32_t size,
                                float rehash_factor,
                                hash_func  hash,
                                compare_func cmp,
@@ -174,7 +174,7 @@ struct hash_set *empty_table(uint32_t size,
     return table;
 }
 
-void delete_table(struct hash_set *table)
+void delete_set(struct hash_set *table)
 {
     if (table->destructor) {
         struct bin *end = table->table + table->size;
@@ -222,13 +222,16 @@ static void insert_key_hashed(struct hash_set *table,
         }
         
         if (bin->hash_key == hash_key) {
-            if (table->cmp(bin->key, key))
-                return; // nothing to be done
-            else
+            if (table->cmp(bin->key, key)) {
+                table->destructor(bin->key);
+                bin->key = key;
+                return; // Done
+            } else {
                 // we have found the key but with as
                 // different value...
-                // find an empty bin later.
+                // Continue searching
                 continue;
+            }
         }
     }
     

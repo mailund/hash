@@ -63,7 +63,7 @@ int main(int argc, const char *argv[])
         init_tag_key(&different_keys[i], random_key());
     }
     
-    struct hash_set *table = empty_table(2, id_hash, compare_values, destroy);
+    struct hash_set *table = new_set(2, id_hash, compare_values, destroy);
     for (int i = 0; i < no_elms; ++i) {
         insert_key(table, &keys[i]);
     }
@@ -89,7 +89,7 @@ int main(int argc, const char *argv[])
         assert(keys[i].deleted == true);
     }
     
-    delete_table(table);
+    delete_set(table);
     printf("SUCCESS\n");
     
     return EXIT_SUCCESS;

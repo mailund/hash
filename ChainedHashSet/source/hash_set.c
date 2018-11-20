@@ -45,8 +45,16 @@ get_previous_link(struct linked_list *list,
 void list_insert_key(struct linked_list *list,
                      uint32_t hash_key,
                      void *key,
-                     compare_func cmp)
+                     compare_func cmp,
+                     destructor_func destructor)
 {
+    struct linked_list *link = get_previous_link(list, hash_key, key, cmp);
+    if (link) {
+        destructor(link->key);
+        link->key = key;
+        return;
+    }
+
     // build link and put it at the front of the list.
     // the hash table checks for duplicates if we want to avoid those
     struct linked_list *new_link = (struct linked_list*)malloc(sizeof(struct linked_list));
@@ -114,7 +122,7 @@ static void resize(struct hash_set *table, uint32_t new_size)
     free(old_bins);
 }
 
-struct hash_set *empty_table(uint32_t size,
+struct hash_set *new_set(uint32_t size,
                                hash_func hash,
                                compare_func cmp,
                                destructor_func destructor)
@@ -131,7 +139,7 @@ struct hash_set *empty_table(uint32_t size,
     return table;
 }
 
-void delete_table(struct hash_set *table)
+void delete_set(struct hash_set *table)
 {
     for (int i = 0; i < table->size; ++i) {
         delete_linked_list(table->table[i].next, table->destructor);
@@ -149,10 +157,12 @@ static void insert_key_hashed(struct hash_set *table, uint32_t hash_key, void *k
     
     if (!list_contains_key(&table->table[index],
                            hash_key, key, table->cmp)) {
-        list_insert_key(&table->table[index],
-                        hash_key, key, table->cmp);
         table->used++;
+        
     }
+    list_insert_key(&table->table[index],
+                    hash_key, key, table->cmp,
+                    table->destructor);
     
     if (table->used > table->size / 2)
         resize(table, table->size * 2);

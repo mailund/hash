@@ -64,6 +64,35 @@
 			<key>uniqueIdentifier</key>
 			<string>17208AFE-D872-4F07-80D7-7DE9181121C9</string>
 		</dict>
+		<key>27680860-A8C3-48D0-B0F2-816055661C21</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>27680860-A8C3-48D0-B0F2-816055661C21.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ChainedUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564402478.68117094</real>
+			<key>timeStoppedRecording</key>
+			<real>564402478.99466503</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>27680860-A8C3-48D0-B0F2-816055661C21</string>
+		</dict>
 		<key>2EA0AD3B-E667-4388-83F6-D973565FC52F</key>
 		<dict>
 			<key>className</key>
@@ -237,6 +266,35 @@
 			<string>Build Test</string>
 			<key>uniqueIdentifier</key>
 			<string>4AD0B060-12F6-4782-AA3B-4C7F932F3923</string>
+		</dict>
+		<key>4B272D83-ADE7-41D1-86FB-BDB17932D3D3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4B272D83-ADE7-41D1-86FB-BDB17932D3D3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ChainedUniversalHashSet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Test</string>
+			<key>timeStartedRecording</key>
+			<real>564402398.97351098</real>
+			<key>timeStoppedRecording</key>
+			<real>564402401.15945494</real>
+			<key>title</key>
+			<string>Build Test</string>
+			<key>uniqueIdentifier</key>
+			<string>4B272D83-ADE7-41D1-86FB-BDB17932D3D3</string>
 		</dict>
 		<key>512A6A25-7F1A-4764-AB4D-A5D8254C1B5C</key>
 		<dict>

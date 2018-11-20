@@ -56,7 +56,7 @@ static void resize(struct hash_set *table, uint32_t new_size)
     free(old_bins);
 }
 
-struct hash_set *empty_table(uint32_t size,
+struct hash_set *new_set(uint32_t size,
                                hash_func  hash,
                                compare_func cmp,
                                destructor_func destructor)
@@ -78,7 +78,7 @@ struct hash_set *empty_table(uint32_t size,
     return table;
 }
 
-void delete_table(struct hash_set *table)
+void delete_set(struct hash_set *table)
 {
     if (table->destructor) {
         struct bin *end = table->table + table->size;
@@ -121,13 +121,16 @@ void insert_key_hashed(struct hash_set *table,
         }
         
         if (bin->hash_key == hash_key) {
-            if (table->cmp(bin->key, key))
-                return; // nothing to be done
-            else
+            if (table->cmp(bin->key, key)) {
+                table->destructor(bin->key);
+                bin->key = key;
+                return; // Done
+            } else {
                 // we have found the key but with as
                 // different value...
-                // find an empty bin later.
+                // Continue searching
                 continue;
+            }
         }
     }
     
