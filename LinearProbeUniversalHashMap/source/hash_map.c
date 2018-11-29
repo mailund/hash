@@ -58,6 +58,11 @@ static void resize(struct hash_map *table, uint32_t new_size);
 static void insert_key_hashed(struct hash_map *table,
                               uint32_t hash_key, uint32_t uhash_key,
                               void *key, void *val);
+static bool contains_key_hashed(struct hash_map *table,
+                                uint32_t hash_key,
+                                uint32_t uhash_key,
+                                void *key);
+
 
 static void resize(struct hash_map *table, uint32_t new_size)
 {
@@ -199,6 +204,7 @@ static void insert_key_hashed(struct hash_map *table,
                               uint32_t hash_key, uint32_t uhash_key,
                               void *key, void *val)
 {
+    bool contains = contains_key_hashed(table, hash_key, uhash_key, key);
     uint32_t index;
     for (uint32_t i = 0; i < table->size; ++i) {
         index = p(uhash_key, i, table->size);
@@ -216,7 +222,7 @@ static void insert_key_hashed(struct hash_map *table,
             break;
         }
         
-        if (bin->is_deleted) {
+        if (bin->is_deleted && !contains) {
             bin->hash_key = hash_key; bin->key = key;
             bin->is_free = bin->is_deleted = false;
             
@@ -258,15 +264,11 @@ void map(struct hash_map *table, void *key, void *val)
         resize(table, table->size * 2);
 }
 
-bool contains_key(struct hash_map *table, void *key)
+static bool contains_key_hashed(struct hash_map *table,
+                                uint32_t hash_key,
+                                uint32_t uhash_key,
+                                void *key)
 {
-    table->operations_since_rehash++;
-    if (table->operations_since_rehash > table->probe_limit) {
-        rehash(table);
-    }
-    
-    uint32_t hash_key = table->hash(key);
-    uint32_t uhash_key = tabhash(hash_key, table->T);
     for (uint32_t i = 0; i < table->size; ++i) {
         uint32_t index = p(uhash_key, i, table->size);
         struct bin *bin = & table->table[index];
@@ -277,6 +279,18 @@ bool contains_key(struct hash_map *table, void *key)
             return true;
     }
     return false;
+}
+
+bool contains_key(struct hash_map *table, void *key)
+{
+    table->operations_since_rehash++;
+    if (table->operations_since_rehash > table->probe_limit) {
+        rehash(table);
+    }
+    
+    uint32_t hash_key = table->hash(key);
+    uint32_t uhash_key = tabhash(hash_key, table->T);
+    return contains_key_hashed(table, uhash_key, hash_key, key);
 }
 
 void *lookup(struct hash_map *table, void *key)

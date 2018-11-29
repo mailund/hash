@@ -29,6 +29,7 @@ static void resize(struct hash_map *table, uint32_t new_size);
 static void insert_key_hashed(struct hash_map *table,
                               uint32_t hash_key,
                               void *key, void *val);
+static bool contains_key_hashed(struct hash_map *table, uint32_t hash_key, void *key);
 
 static void resize(struct hash_map *table, uint32_t new_size)
 {
@@ -106,6 +107,7 @@ void delete_map(struct hash_map *table)
 static void insert_key_hashed(struct hash_map *table,
                               uint32_t hash_key, void *key, void *val)
 {
+    bool contains = contains_key_hashed(table, hash_key, key);
     uint32_t index;
     for (uint32_t i = 0; i < table->size; ++i) {
         index = p(hash_key, i, table->size);
@@ -123,7 +125,7 @@ static void insert_key_hashed(struct hash_map *table,
             break;
         }
         
-        if (bin->is_deleted) {
+        if (bin->is_deleted && !contains) {
             bin->hash_key = hash_key; bin->key = key;
             bin->is_free = bin->is_deleted = false;
             
@@ -159,9 +161,8 @@ void map(struct hash_map *table, void *key, void *val)
         resize(table, table->size * 2);
 }
 
-bool contains_key(struct hash_map *table, void *key)
+static bool contains_key_hashed(struct hash_map *table, uint32_t hash_key, void *key)
 {
-    uint32_t hash_key = table->hash(key);
     for (uint32_t i = 0; i < table->size; ++i) {
         uint32_t index = p(hash_key, i, table->size);
         struct bin *bin = & table->table[index];
@@ -172,6 +173,12 @@ bool contains_key(struct hash_map *table, void *key)
             return true;
     }
     return false;
+}
+
+bool contains_key(struct hash_map *table, void *key)
+{
+    uint32_t hash_key = table->hash(key);
+    return contains_key_hashed(table, hash_key, key);
 }
 
 void *lookup(struct hash_map *table, void *key)

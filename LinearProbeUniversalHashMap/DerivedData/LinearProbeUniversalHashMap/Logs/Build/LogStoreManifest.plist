@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>492C952B-2DF0-449F-A1F5-F3F75767DABB</key>
+		<key>1A670A7A-D6BB-4775-8800-DAB194D9ACCE</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,9 +15,38 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>492C952B-2DF0-449F-A1F5-F3F75767DABB.xcactivitylog</string>
+			<string>1A670A7A-D6BB-4775-8800-DAB194D9ACCE.xcactivitylog</string>
 			<key>highLevelStatus</key>
-			<string>S</string>
+			<string>A</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinearProbeUniversalHashMap project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Analyze Test</string>
+			<key>timeStartedRecording</key>
+			<real>565172401.93057597</real>
+			<key>timeStoppedRecording</key>
+			<real>565172404.458956</real>
+			<key>title</key>
+			<string>Analyze Test</string>
+			<key>uniqueIdentifier</key>
+			<string>1A670A7A-D6BB-4775-8800-DAB194D9ACCE</string>
+		</dict>
+		<key>64E7FF55-FCED-48E8-B937-40ED8329D95B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>64E7FF55-FCED-48E8-B937-40ED8329D95B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>A</string>
 			<key>schemeIdentifier-containerName</key>
 			<string>LinearProbeUniversalHashMap project</string>
 			<key>schemeIdentifier-schemeName</key>
@@ -27,13 +56,13 @@
 			<key>signature</key>
 			<string>Build Test</string>
 			<key>timeStartedRecording</key>
-			<real>564400947.26242304</real>
+			<real>565172465.76577306</real>
 			<key>timeStoppedRecording</key>
-			<real>564400947.47891605</real>
+			<real>565172465.88872397</real>
 			<key>title</key>
 			<string>Build Test</string>
 			<key>uniqueIdentifier</key>
-			<string>492C952B-2DF0-449F-A1F5-F3F75767DABB</string>
+			<string>64E7FF55-FCED-48E8-B937-40ED8329D95B</string>
 		</dict>
 		<key>AF3F08DC-3700-4C97-B85B-78E19AF51597</key>
 		<dict>

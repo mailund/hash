@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>192A4F5A-C2AF-4815-9A0A-9E4DF09C959A</key>
+		<key>C778A999-F69E-408F-B5BA-4FBCD43C1BF9</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>192A4F5A-C2AF-4815-9A0A-9E4DF09C959A.xcactivitylog</string>
+			<string>C778A999-F69E-408F-B5BA-4FBCD43C1BF9.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,42 +27,13 @@
 			<key>signature</key>
 			<string>Debug Test</string>
 			<key>timeStartedRecording</key>
-			<real>564333356.17112005</real>
+			<real>565173707.78072202</real>
 			<key>timeStoppedRecording</key>
-			<real>564333360.20507205</real>
+			<real>565173711.69964004</real>
 			<key>title</key>
 			<string>Debug Test</string>
 			<key>uniqueIdentifier</key>
-			<string>192A4F5A-C2AF-4815-9A0A-9E4DF09C959A</string>
-		</dict>
-		<key>AE4ECE34-9092-4159-A380-9179A3B0CA74</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>AE4ECE34-9092-4159-A380-9179A3B0CA74.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>LinearProbeHashSet project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Test</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Test</string>
-			<key>timeStartedRecording</key>
-			<real>564335168.77689695</real>
-			<key>timeStoppedRecording</key>
-			<real>564335170.04829705</real>
-			<key>title</key>
-			<string>Debug Test</string>
-			<key>uniqueIdentifier</key>
-			<string>AE4ECE34-9092-4159-A380-9179A3B0CA74</string>
+			<string>C778A999-F69E-408F-B5BA-4FBCD43C1BF9</string>
 		</dict>
 		<key>D363FB2D-8D81-424F-AC11-C5127378A02E</key>
 		<dict>
